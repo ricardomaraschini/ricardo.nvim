@@ -1,4 +1,4 @@
-vim.keymap.set("n", "<C-i>", function()
+vim.keymap.set("n", "<C-c>", function()
     require("ricardo").incoming_calls()
 end)
 
